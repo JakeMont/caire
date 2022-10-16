@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/JakeMont/caire /utils"
+	"github.com/JakeMont/caire/utils"
 )
 
 func TestImage_ShouldGetSampleImage(t *testing.T) {

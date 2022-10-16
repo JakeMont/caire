@@ -13,7 +13,7 @@ In case you wish to integrate the API in a self constructed environment here is 
 
 	import (
 		"fmt"
-		"github.com/JakeMont/caire "
+		"github.com/JakeMont/caire"
 	)
 
 	func main() {

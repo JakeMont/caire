@@ -6,7 +6,7 @@ import (
 	"image/draw"
 	"math"
 
-	"github.com/JakeMont/caire /utils"
+	"github.com/JakeMont/caire/utils"
 	pigo "github.com/esimov/pigo/core"
 )
 

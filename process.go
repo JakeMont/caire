@@ -18,7 +18,7 @@ import (
 	"strings"
 
 	"github.com/disintegration/imaging"
-	"github.com/JakeMont/caire /utils"
+	"github.com/JakeMont/caire/utils"
 	pigo "github.com/esimov/pigo/core"
 	"golang.org/x/image/bmp"
 )

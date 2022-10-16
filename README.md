@@ -1,9 +1,9 @@
 <h1 align="center"><img alt="Caire Logo" src="https://user-images.githubusercontent.com/883386/51555990-a1762600-1e81-11e9-9a6a-0cd815870358.png" height="180"></h1>
 
-[![build](https://github.com/JakeMont/caire /actions/workflows/build.yml/badge.svg)](https://github.com/JakeMont/caire /actions/workflows/build.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/esimov/caire.svg)](https://pkg.go.dev/github.com/JakeMont/caire )
+[![build](https://github.com/JakeMont/caire/actions/workflows/build.yml/badge.svg)](https://github.com/JakeMont/caire/actions/workflows/build.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/esimov/caire.svg)](https://pkg.go.dev/github.com/JakeMont/caire)
 [![license](https://img.shields.io/github/license/esimov/caire)](./LICENSE)
-[![release](https://img.shields.io/badge/release-v1.4.4-blue.svg)](https://github.com/JakeMont/caire /releases/tag/v1.4.4)
+[![release](https://img.shields.io/badge/release-v1.4.4-blue.svg)](https://github.com/JakeMont/caire/releases/tag/v1.4.4)
 [![homebrew](https://img.shields.io/badge/homebrew-v1.4.4-orange.svg)](https://formulae.brew.sh/formula/caire)
 [![caire](https://snapcraft.io/caire/badge.svg)](https://snapcraft.io/caire)
 
@@ -47,7 +47,7 @@ Key features which differentiates this library from the other existing open sour
 First, install Go, set your `GOPATH`, and make sure `$GOPATH/bin` is on your `PATH`.
 
 ```bash
-$ go install github.com/JakeMont/caire /cmd/caire@latest 
+$ go install github.com/JakeMont/caire/cmd/caire@latest 
 ```
 
 ## MacOS (Brew) install
@@ -102,7 +102,7 @@ The image below illustrates the application capabilities for human face detectio
 
 ### GUI progress indicator
 
-<p align="center"><img alt="GUI preview" title="GUI preview" src="https://github.com/JakeMont/caire /raw/master/gui_preview.gif"></p>
+<p align="center"><img alt="GUI preview" title="GUI preview" src="https://github.com/JakeMont/caire/raw/master/gui_preview.gif"></p>
 
 A GUI preview mode is also incorporated into the library for in time process visualization. The Gio GUI library has been used because of its robustness and modern architecture. Prior running it please make sure that you have installed all the required dependencies noted in the installation section (https://gioui.org/#installation) .
 
@@ -165,7 +165,7 @@ When an image is resized on both the X and Y axis, the algorithm will first try 
 - `-rmask`: The path to the removal mask. The mask should be in binary format and have the same size as the input image. White areas represent regions to be removed.
 
 ### Caire integrations
-- [x] Caire can be used as a serverless function via OpenFaaS: https://github.com/JakeMont/caire -openfaas
+- [x] Caire can be used as a serverless function via OpenFaaS: https://github.com/JakeMont/caire-openfaas
 - [x] Caire can also be used as a `snap` function (https://snapcraft.io/caire): `$ snap run caire --h`
 
 <a href="https://snapcraft.io/caire"><img src="https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BEN%5D-snap-store-white-uneditable.png" alt="snapcraft caire"></a>

@@ -10,7 +10,7 @@ import (
 	"gioui.org/op/paint"
 	"gioui.org/unit"
 	"gioui.org/widget"
-	"github.com/JakeMont/caire /utils"
+	"github.com/JakeMont/caire/utils"
 )
 
 const (
