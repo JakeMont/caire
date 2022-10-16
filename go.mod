@@ -2,8 +2,6 @@ module github.com/JakeMont/caire
 
 go 1.18
 
-replace github.com/esimov/caire => github.com/JakeMont/caire v0.0.0-20221016142606-b810ff823ed1
-
 require (
 	gioui.org v0.0.0-20220801181544-dbbae0519e24
 	github.com/disintegration/imaging v1.6.2

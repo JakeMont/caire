@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"gioui.org/app"
-	"github.com/esimov/caire"
-	"github.com/esimov/caire/utils"
+	"github.com/JakeMont/caire "
+	"github.com/JakeMont/caire /utils"
 	"golang.org/x/term"
 )
 

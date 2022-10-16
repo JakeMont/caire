@@ -18,7 +18,7 @@ func TestUtils_ShouldDownloadImage(t *testing.T) {
 }
 
 func TestUtils_ShouldBeValidUrl(t *testing.T) {
-	ok := IsValidUrl("https://github.com/esimov/caire/")
+	ok := IsValidUrl("https://github.com/JakeMont/caire /")
 	if !ok {
 		t.Errorf("A valid URL should have been provided")
 	}
