@@ -1,4 +1,4 @@
-module github.com/esimov/caire
+module github.com/JakeMont/caire
 
 go 1.18
 
