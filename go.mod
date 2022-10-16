@@ -2,7 +2,7 @@ module github.com/JakeMont/caire
 
 go 1.18
 
-replace github.com/esimov/caire => github.com/JakeMont/caire@latest
+replace github.com/esimov/caire => github.com/JakeMont/caire@b810ff823ed1386716d5645cbb4a1ba462abc0d8
 
 require (
 	gioui.org v0.0.0-20220801181544-dbbae0519e24
