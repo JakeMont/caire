@@ -24,7 +24,7 @@ import (
 )
 
 //go:embed data/facefinder
-var cascadeFile []byte
+var CascadeFile []byte
 
 var (
 	g      *gif.GIF
@@ -421,7 +421,7 @@ func (p *Processor) Process(r io.Reader, w io.Writer) error {
 	if p.FaceDetect {
 		// Unpack the binary file. This will return the number of cascade trees,
 		// the tree depth, the threshold and the prediction from tree's leaf nodes.
-		p.PigoFaceDetector, err = p.PigoFaceDetector.Unpack(cascadeFile)
+		p.PigoFaceDetector, err = p.PigoFaceDetector.Unpack(CascadeFile)
 		if err != nil {
 			return fmt.Errorf("error unpacking the cascade file: %v", err)
 		}

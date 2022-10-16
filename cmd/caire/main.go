@@ -78,6 +78,11 @@ var (
 )
 
 func main() {
+
+	l := len(caire.CascadeFile)
+	fmt.Println(l)
+	return 
+
 	log.SetFlags(0)
 	flag.Usage = func() {
 		fmt.Fprintf(os.Stderr, fmt.Sprintf(HelpBanner, Version))
